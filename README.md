@@ -11,13 +11,20 @@ The ft_printf project is part of the 42 curriculum and aims to recreate the func
 Features
 
 The implementation supports a subset of the standard printf functionality, including the following format specifiers:
-	•	%c: Prints a single character.
-	•	%s: Prints a string.
-	•	%p: Prints a pointer address.
-	•	%d / %i: Prints a signed decimal integer.
-	•	%u: Prints an unsigned decimal integer.
-	•	%x / %X: Prints a hexadecimal integer (lowercase/uppercase).
-	•	%%: Prints a percent sign.
+
+			•	%c: Prints a single character.
+   
+			•	%s: Prints a string.
+   
+			•	%p: Prints a pointer address.
+   
+			•	%d / %i: Prints a signed decimal integer.
+   
+			•	%u: Prints an unsigned decimal integer.
+   
+			•	%x / %X: Prints a hexadecimal integer (lowercase/uppercase).
+   
+			•	%%: Prints a percent sign.
 
 Other behaviors of printf are also emulated, including:
 	•	Proper memory management.
